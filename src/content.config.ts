@@ -32,14 +32,14 @@ const pageCollection = defineCollection({
     }),
 });
 
-const linkCollection = defineCollection({
+/* const linkCollection = defineCollection({
   loader: glob({ pattern: '**/[^_]*.yml', base: './src/content/links' }),
   schema: z.object({
     label: z.string(),
     name: z.string(),
     url: z.string(),
   }),
-});
+}); */
 
 const jobCollection = defineCollection({
   loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: './src/content/jobs' }),
