@@ -28,8 +28,8 @@ export const DEFAULT_CONFIGURATION: DefaultConfigurationType = {
   author: {
     avatar,
     name: 'Hirsch TingZhong Wei',
-    headline: 'Engineering and Design',
-    username: 'N/A',
+/*    headline: 'Engineering and Design',
+    username: 'N/A', */
     location: 'New Taipei City',
     pronouns: 'He/Him',
   },
